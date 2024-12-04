@@ -547,11 +547,17 @@ TangelaEvosMoves:
 	db 49, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 0
+ChangEvosMoves:
+ ; Evolutions
+ 	db 0
+ ; Learnset
++	db 10, SLAM
++	db 15, BITE
++	db 21, TAIL_WHIP
++	db 33, HARDEN
++	db 44, GROWTH
++	db 55, SLASH
+ 	db 0
 
 MissingNo20EvosMoves:
 ; Evolutions

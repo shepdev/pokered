@@ -1507,3 +1507,13 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
+
+_CrobatDexEntry::
+	text "As a result of its"
+	next "Changness,"
+	next "it became a"
+	
+	page "strange new being"
+	next "with big big big"
+	next "big big claws :)"
+	dex

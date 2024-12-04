@@ -1508,7 +1508,7 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
-_CrobatDexEntry::
+_ChangDexEntry::
 	text "As a result of its"
 	next "Changness,"
 	next "it became a"

@@ -526,6 +526,7 @@ BlastoiseEvosMoves:
 PinsirEvosMoves:
 ; Evolutions
 	db EVOLVE_LEVEL, 12, CHANG
+	db EVOLVE_ITEM, MOON_STONE, 1, CHANG
 	db 0
 ; Learnset
 	db 25, SEISMIC_TOSS

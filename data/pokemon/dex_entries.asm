@@ -30,7 +30,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
+	dw ChangDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -1252,6 +1252,13 @@ VictreebelDexEntry:
 	db 5,7
 	dw 340
 	text_far _VictreebelDexEntry
+	text_end
+
+ChangDexEntry:
+	db "MYSTERIOUS@"
+	db 9,9
+	dw 9290
+	text_far _ChangDexEntry
 	text_end
 
 MissingNoDexEntry:
